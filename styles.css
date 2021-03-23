@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Inter";
+    src: url(./assets/Fonts/Intern/Inter.ttf) format(truetype);
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url(./assets/Fonts/PlayfairDisplay/PlayfairDisplay.ttf) format(truetype);
+    font-display: swap;
+    font-style: normal;
+}
+
+*{
+    box-sizing:border-box;
+    margin:0;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-image: url(./assets/images/6993851_631.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.quizz-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.50);
+	inline-size: 40vw;
+	block-size: 35vh;
+	border-radius: 10px;
+}
